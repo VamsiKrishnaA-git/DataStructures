@@ -34,7 +34,26 @@ public class Main {
        // System.out.println(obj1.pop());
         //System.out.println(obj1.top);
         obj2.show();
-
+        DoublyLinkedList obj3 = new DoublyLinkedList();
+        obj3.insertAtHead(1);
+        obj3.insertAtHead(2);
+        obj3.insertAtHead(3);
+        obj3.insertAtHead(14);
+        obj3.insertAtEnd(25);
+        //obj3.insertAtAfter(89,9);
+        //obj3.insertAtAfter(100,25);
+        //obj3.insertAtAfter(800,14);
+        obj3.show();
+        obj3.deleteByValue(800);
+        obj3.deleteByValue(89);
+        obj3.deleteByValue(25);
+        obj3.deleteByValue(2);
+        obj3.deleteByValue(1);
+        obj3.deleteByValue(3);
+        obj3.deleteByValue(14);
+        //obj3.deleteByValue(14);
+        obj3.show();
+        System.out.println(obj3.getSize());
     }
 
 }
