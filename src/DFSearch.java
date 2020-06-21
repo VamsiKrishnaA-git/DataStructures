@@ -47,7 +47,7 @@ public class DFSearch {
         // The function to do DFS traversal. It uses recursive DFSUtil()
         void DFS()
         {
-            boo lean visited[] = new boolean[V];
+            boolean visited[] = new boolean[V];
             int k=0;
 
             for (k=0; k<V; ++k)
