@@ -54,6 +54,7 @@ public class Main {
         //obj3.deleteByValue(14);
         obj3.show();
         System.out.println(obj3.getSize());
+        //HashTable obj99 = new HashTable()
     }
 
 }
